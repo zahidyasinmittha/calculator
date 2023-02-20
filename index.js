@@ -17,6 +17,7 @@ btn.addEventListener('click',(e)=>{
     }
     else if(e.target.innerHTML=="A"){
         d_exp+=ans;
+        exp+=ans;
     }
     else if(e.target.innerHTML=="X"){
         d_exp+=e.target.innerHTML;
