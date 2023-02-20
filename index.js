@@ -7,7 +7,7 @@ Array.from(btn).forEach((btn)=>{
 btn.addEventListener('click',(e)=>{
     if(e.target.innerHTML=="="){
         try{
-        exp=eval(exp);
+        exp=eval(exp).toString();
         ans=exp;
         d_exp=exp;
         }
